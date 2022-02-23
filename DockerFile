@@ -1,8 +1,8 @@
 # For Java 8, try this
-FROM openjdk8:alpine-jre
+FROM openjdk:8
 
 # Refer to Maven build -> finalName
-ARG JAR_FILE=target/demo-docker.jar
+ARG JAR_FILE=target/spring-boot-docker-master.jar
 
 # cd /opt/app
 WORKDIR /opt/app
